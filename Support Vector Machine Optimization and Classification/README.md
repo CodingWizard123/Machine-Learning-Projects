@@ -18,7 +18,7 @@ The SVM optimization problem can be transformed into its dual form to facilitate
 
 $$\[ \max_{\lambda_i \geq 0} \min_{w,\alpha} \|w\|^2 - \sum_{i=1}^{n} \lambda_i(y_i(X_i \cdot w + \alpha) - 1) \]$$
 
-Using Lagrange multipliers \( \lambda_i \), we can rewrite the conditions for the optimization problem. Solving this involves taking derivatives with respect to \( w \) and \( \alpha \) and setting them to zero to find the optimal values.
+Using Lagrange multipliers $\( \lambda_i \)$, we can rewrite the conditions for the optimization problem. Solving this involves taking derivatives with respect to $\( w \)$ and $\( \alpha \)$ and setting them to zero to find the optimal values.
 
 ### Support Vectors
 
