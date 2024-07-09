@@ -16,7 +16,7 @@ This project focuses on optimizing Support Vector Machines (SVMs) through variou
 
 The SVM optimization problem can be transformed into its dual form to facilitate solving high-dimensional problems. The dual problem is represented as:
 
-\[ \max_{\lambda_i \geq 0} \min_{w,\alpha} \|w\|^2 - \sum_{i=1}^{n} \lambda_i(y_i(X_i \cdot w + \alpha) - 1) \]
+$$\[ \max_{\lambda_i \geq 0} \min_{w,\alpha} \|w\|^2 - \sum_{i=1}^{n} \lambda_i(y_i(X_i \cdot w + \alpha) - 1) \]$$
 
 Using Lagrange multipliers \( \lambda_i \), we can rewrite the conditions for the optimization problem. Solving this involves taking derivatives with respect to \( w \) and \( \alpha \) and setting them to zero to find the optimal values.
 
@@ -28,9 +28,9 @@ Support vectors are the data points that lie closest to the decision boundary an
 
 The decision rule for classification is based on the sign of the function:
 
-\[ r(x) = \text{sign}(w \cdot X + \alpha) \]
+$$\[ r(x) = \text{sign}(w \cdot X + \alpha) \]$$
 
-Where \( w \) and \( \alpha \) are obtained from solving the dual optimization problem.
+Where $\( w \)$ and $\( \alpha \)$ are obtained from solving the dual optimization problem.
 
 ## Machine Learning Concepts
 
@@ -39,7 +39,7 @@ Where \( w \) and \( \alpha \) are obtained from solving the dual optimization p
 SVMs are supervised learning models used for classification and regression tasks. They work by finding the hyperplane that best separates the data into different classes with the maximum margin. Key concepts include:
 
 - **Kernel Trick**: Allows SVMs to perform non-linear classification by mapping data to higher-dimensional spaces.
-- **Hyperparameter Tuning**: Adjusting parameters like the penalty term \( C \) and the kernel parameters to improve model performance.
+- **Hyperparameter Tuning**: Adjusting parameters like the penalty term $\( C \)$ and the kernel parameters to improve model performance.
 - **Cross-Validation**: A technique to assess the model's performance by dividing the data into training and validation sets multiple times.
 
 ## Python Concepts
@@ -72,7 +72,7 @@ The project yielded several important results:
 - **Model Accuracy**: Hyperparameter tuning and cross-validation significantly enhanced the model's accuracy on different datasets.
 - **Visual Insights**: Visualization of decision boundaries provided intuitive insights into how the SVM classifies data.
 
-The analysis showed that increasing the sample size and adjusting the \( C \) parameter improved the model's performance. The use of K-fold cross-validation helped in selecting the best model parameters, ensuring robust and reliable results.
+The analysis showed that increasing the sample size and adjusting the $\( C \)$ parameter improved the model's performance. The use of K-fold cross-validation helped in selecting the best model parameters, ensuring robust and reliable results.
 
 ## Conclusion
 
