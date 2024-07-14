@@ -15,7 +15,7 @@ Gaussian distributions are defined by their mean (μ) and covariance matrix (Σ)
 $\[ f(x|\mu, \Sigma) = \frac{1}{(2\pi)^{d/2}|\Sigma|^{1/2}} \exp\left(-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu)\right) \]$
 
 ### Maximum Likelihood Estimation (MLE)
-MLE is used to estimate the parameters (mean and covariance) of the Gaussian distributions. For a set of observations \(X = \{x_1, x_2, \ldots, x_n\}\), the log-likelihood function is:
+MLE is used to estimate the parameters (mean and covariance) of the Gaussian distributions. For a set of observations $\(X = \{x_1, x_2, \ldots, x_n\}\)$, the log-likelihood function is:
 $\[ \log L(\mu, \Sigma) = -\frac{n}{2}\log(2\pi) - \frac{n}{2}\log|\Sigma| - \frac{1}{2}\sum_{i=1}^{n}(x_i-\mu)^T\Sigma^{-1}(x_i-\mu) \]$
 
 ### Bayesian Decision Theory
