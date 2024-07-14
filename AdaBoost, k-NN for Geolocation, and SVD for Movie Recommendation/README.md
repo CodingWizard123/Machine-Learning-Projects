@@ -1,4 +1,4 @@
-# Machine Learning Project: AdaBoost, k-NN for Geolocation, and SVD for Movie Recommendation
+# AdaBoost, k-NN for Geolocation, and SVD for Movie Recommendation
 
 ## Project Explanation
 This project comprises three main components: implementing AdaBoost for boosting weak classifiers, applying k-Nearest Neighbors (k-NN) for geolocation prediction using image features, and leveraging Singular Value Decomposition (SVD) for building a movie recommendation system. Each part demonstrates a unique aspect of machine learning, showcasing different algorithms and techniques.
